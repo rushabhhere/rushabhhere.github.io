@@ -1,14 +1,22 @@
 {
-  "name": "",
-  "type": "module",
-  "version": "0.0.1",
+  "name": "rushabhjaveri.com",
+  "author": "Rushabh Javeri <rushabhjaveri@duck.com>",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "format": "prettier --write ."
   },
   "dependencies": {
-    "astro": "^5.0.3"
+    "@astrojs/tailwind": "^5.1.3",
+    "@fontsource/ia-writer-quattro": "^5.1.0",
+    "@fontsource/ibm-plex-sans": "^5.1.0",
+    "astro": "^5.0.3",
+    "tailwindcss": "^3.4.16"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2",
+    "prettier-plugin-astro": "^0.14.1"
   }
 }
